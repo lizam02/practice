@@ -1,29 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-     <h1>Регистрация на сайте</h1>
-      <ul>
-          <a href="index.html"><li>Главная</li></a>
-          <a href="catalog.html"><li>Каталог</li></a>
-          <a href="registration.html"><li>Регистрация</li></a>
-      </ul>
-     <hr>
-         <input type="text" size="30" placeholder="ФИО">
-         <br>
-         <input type="text" size="8" placeholder="Телефон">
-         <br>
-         <input type="text" size="20" placeholder="Электронная почта">
-         <br>
-         <input type="text" size="20" placeholder="Логин">
-         <br>
-         <input type="text" size="10" placeholder="Пароль">
-         <br>
-         <input type="submit" value="Отправить">
-         <br>
-         <input type="reset" value="Отменить">
+    <div class="wrapper">
+        <div class="content">
+            <div class="menu">
+                <ul>
+                    <a href="index.html">
+                        <li>Главная</li>
+                    </a>
+                    <a href="catalog.html">
+                        <li>Каталог</li>
+                    </a>
+                    <a href="registration.html">
+                        <li>Регистрация</li>
+                    </a>
+                </ul>
+                <hr>
+            </div>
+            <h1>Регистрация на сайте</h1>
+            <div class="forma">
+                <form action="#">
+                    <input type="text" size="30" placeholder="ФИО">
+                    <br>
+                    <input type="text" size="8" placeholder="Телефон">
+                    <br>
+                    <input type="email" size="20" placeholder="Электронная почта">
+                    <br>
+                    <input type="text" size="20" placeholder="Логин">
+                    <br>
+                    <input type="password" size="10" placeholder="Пароль">
+                    <br>
+                    <div class="button">
+                        <input type="submit" value="Отправить">
+                        <br>
+                        <input type="reset" value="Отменить">
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+
+
+        <footer>
+            Подвал
+        </footer>
+    </div>
+
+
 </body>
+
 </html>
