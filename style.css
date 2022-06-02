@@ -108,9 +108,16 @@ body {
 }
 
 .cats a{
-    font-size: 20px;
+    font-size: 35px;
 }
 .cats ul{
+    display: flex;
+    justify-content:space-around;
+}
+.cats2 a{
+    font-size: 35px;
+}
+.cats2 ul{
     display: flex;
     justify-content:space-around;
 }
