@@ -126,4 +126,6 @@ a:hover {
 }
 .content a {
     font-size: 35px;
+    font-style: initial;
+    padding-left: 30px;
 }
