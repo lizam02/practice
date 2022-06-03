@@ -121,3 +121,9 @@ body {
     display: flex;
     justify-content:space-around;
 }
+a:hover {
+    color: mediumvioletred;
+}
+.content a {
+    font-size: 35px;
+}
